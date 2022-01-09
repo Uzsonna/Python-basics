@@ -1,0 +1,7 @@
+txt = "The best things in life are free!"
+x = "free"
+y = "expensive"
+if x in txt:
+  print("Yes, " + x + " is present.")
+else:
+  print("There is " + y + " in the text" )
