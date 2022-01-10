@@ -5,3 +5,11 @@ if x in txt:
   print("Yes, " + x + " is present.")
 else:
   print("There is " + y + " in the text" )
+  
+  
+
+
+# format method
+age = 36
+txt = "My name is John, and I am {} years old"
+print(txt.format(age))
